@@ -91,7 +91,7 @@ Dataset Fields:
 
 | Measure Name | Description | DAX Formula |
 |--------------|-------------|-------------|
-| Avg_Calories | Average calories per serving | ```DAX\nAvg_Calories = AVERAGE('Cereal'[calories])\n``` |
+| Avg_Calories | Average calories per serving | ```DAX Avg_Calories = AVERAGE('Cereal'[calories])\n``` |
 | Avg_Fiber | Average fiber per serving | ```DAX\nAvg_Fiber = AVERAGE('Cereal'[fiber])\n``` |
 | Total_Sodium | Total sodium content across cereals | ```DAX\nTotal_Sodium = SUM('Cereal'[sodium])\n``` |
 | Avg_Calories_Hot | Average calories for hot cereals | ```DAX\nAvg_Calories_Hot = CALCULATE([Avg_Calories], 'Cereal'[type] = "Hot")\n``` |
