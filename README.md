@@ -53,65 +53,49 @@ Dataset Fields:
 
 1. Data Preprocessing (Python)
 
-Standardization & Cleaning:
+   Standardization & Cleaning:
 
-Standardized manufacturer codes and cereal types
+   Standardized manufacturer codes and cereal types
 
-Handled missing or inconsistent nutritional values
+   Handled missing or inconsistent nutritional values
 
-Derived Metrics:
+   Derived Metrics:
 
-Total sugar per calorie (sugar/calories)
+   Total sugar per calorie (sugar/calories)
 
-Fiber-to-calorie ratio (fiber/calories)
+   Fiber-to-calorie ratio (fiber/calories)
 
-Popularity index based on rating and shelf position
+   Popularity index based on rating and shelf position
 
-Aggregation:
+   Aggregation:
 
-Manufacturer-level metrics (avg calories, fiber, sodium, popularity)
+   Manufacturer-level metrics (avg calories, fiber, sodium, popularity)
 
-Hot vs Cold cereal comparison
+   Hot vs Cold cereal comparison
 
-Example Python Libraries Used: pandas, numpy, matplotlib, seaborn
+   Example Python Libraries Used: pandas, numpy, matplotlib, seaborn
 
 2. Data Modeling (Power BI)
 
-Fact Table: Cereal product-level nutritional and popularity metrics
+   Fact Table: Cereal product-level nutritional and popularity metrics
 
-Dimension Tables: Manufacturer, Type (Hot/Cold), Shelf, Vitamins Category
+   Dimension Tables: Manufacturer, Type (Hot/Cold), Shelf, Vitamins Category
 
-Relationships:
+   Relationships:
 
-1:N relationships for Fact → Dimensions
+   1:N relationships for Fact → Dimensions
 
-Optimized for filtering, drill-through, and slicer performance
+   Optimized for filtering, drill-through, and slicer performance
 
 3. DAX Calculations
 
-Dynamic KPIs:
-
-Avg_Calories = AVERAGE('Cereal'[calories])
-Avg_Fiber = AVERAGE('Cereal'[fiber])
-Total_Sodium = SUM('Cereal'[sodium])
-
-
-Hot vs Cold Metrics:
-
-Avg_Calories_Hot = CALCULATE([Avg_Calories], 'Cereal'[type]="Hot")
-Avg_Calories_Cold = CALCULATE([Avg_Calories], 'Cereal'[type]="Cold")
-
-
-Top Manufacturer by Popularity:
-
-Top_Manufacturer = 
-  TOPN(
-    1, 
-    SUMMARIZE('Cereal','Cereal'[mfr],"Popularity",SUM('Cereal'[rating])),
-    [Popularity],
-    DESC
-  )
-
+| Measure Name | Description | DAX Formula |
+|--------------|-------------|-------------|
+| Avg_Calories | Average calories per serving | ```DAX\nAvg_Calories = AVERAGE('Cereal'[calories])\n``` |
+| Avg_Fiber | Average fiber per serving | ```DAX\nAvg_Fiber = AVERAGE('Cereal'[fiber])\n``` |
+| Total_Sodium | Total sodium content across cereals | ```DAX\nTotal_Sodium = SUM('Cereal'[sodium])\n``` |
+| Avg_Calories_Hot | Average calories for hot cereals | ```DAX\nAvg_Calories_Hot = CALCULATE([Avg_Calories], 'Cereal'[type] = "Hot")\n``` |
+| Top_Manufacturer | Most popular manufacturer by rating | ```DAX\nTop_Manufacturer = TOPN(1, SUMMARIZE('Cereal','Cereal'[mfr],"Popularity",SUM('Cereal'[rating])), [Popularity], DESC)\n``` |
 
 Population-Level Nutritional Ratios:
 
