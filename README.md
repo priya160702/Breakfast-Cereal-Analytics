@@ -105,7 +105,7 @@ Sodium per calorie
 
 4. Dashboard Design
 
-   KPIs: Avg Calories, Avg Fiber, Top Manufacturer, Hot vs Cold Popularity
+KPIs: Avg Calories, Avg Fiber, Top Manufacturer, Hot vs Cold Popularity
 
    Visuals:
 
