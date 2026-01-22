@@ -89,23 +89,23 @@ Dataset Fields:
 
 3. DAX Calculations
 
-| Measure Name | Description | DAX Formula |
-|--------------|-------------|-------------|
-| Avg_Calories | Average calories per serving | ```Avg_Calories = AVERAGE('Cereal'[calories])``` |
-| Avg_Fiber | Average fiber per serving | ```Avg_Fiber = AVERAGE('Cereal'[fiber])``` |
-| Total_Sodium | Total sodium content across cereals | ```Total_Sodium = SUM('Cereal'[sodium])``` |
-| Avg_Calories_Hot | Average calories for hot cereals | ```Avg_Calories_Hot = CALCULATE([Avg_Calories], 'Cereal'[type] = "Hot")``` |
-| Top_Manufacturer | Most popular manufacturer by rating | ```Top_Manufacturer = TOPN(1, SUMMARIZE('Cereal','Cereal'[mfr],"Popularity",SUM('Cereal'[rating])), [Popularity], DESC)``` |
+   | Measure Name | Description | DAX Formula |
+   |--------------|-------------|-------------|
+   | Avg_Calories | Average calories per serving | ```Avg_Calories = AVERAGE('Cereal'[calories])``` |
+   | Avg_Fiber | Average fiber per serving | ```Avg_Fiber = AVERAGE('Cereal'[fiber])``` |
+   | Total_Sodium | Total sodium content across cereals | ```Total_Sodium = SUM('Cereal'[sodium])``` |
+   | Avg_Calories_Hot | Average calories for hot cereals | ```Avg_Calories_Hot = CALCULATE([Avg_Calories], 'Cereal'[type] = "Hot")``` |
+   | Top_Manufacturer | Most popular manufacturer by rating | ```Top_Manufacturer = TOPN(1, SUMMARIZE('Cereal','Cereal'[mfr],"Popularity",SUM('Cereal'[rating])), [Popularity], DESC)``` |
 
-Population-Level Nutritional Ratios:
+   Population-Level Nutritional Ratios:
 
-Fiber per serving / Calories
+   Fiber per serving / Calories
 
-Sodium per calorie
+   Sodium per calorie
 
 4. Dashboard Design
 
-KPIs: Avg Calories, Avg Fiber, Top Manufacturer, Hot vs Cold Popularity
+   KPIs: Avg Calories, Avg Fiber, Top Manufacturer, Hot vs Cold Popularity
 
    Visuals:
 
