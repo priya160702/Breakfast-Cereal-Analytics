@@ -8,15 +8,15 @@ This project leverages Python for data preprocessing and exploratory analysis an
 
 ### Project Objectives
 
-Perform manufacturer- and product-level popularity analysis
+1. Perform manufacturer- and product-level popularity analysis
 
-Compare hot vs cold cereals for nutritional performance and market share
+2. Compare hot vs cold cereals for nutritional performance and market share
 
-Evaluate key nutritional metrics: calories, protein, fat, fiber, sugar, sodium, potassium, and vitamins
+3. Evaluate key nutritional metrics: calories, protein, fat, fiber, sugar, sodium, potassium, and vitamins
 
-Identify top-performing cereals and manufacturers
+4. Identify top-performing cereals and manufacturers
 
-Develop an interactive Power BI dashboard with slicers, KPIs, and trend analysis
+5. Develop an interactive Power BI dashboard with slicers, KPIs, and trend analysis
 
 ### Dataset Overview
 
