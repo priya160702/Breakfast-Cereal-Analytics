@@ -20,7 +20,7 @@ This project leverages Python for data preprocessing and exploratory analysis an
 
 ### Dataset Overview
 
-Source: Cereal Nutrition Dataset – Kaggle
+Original Dataset: https://www.kaggle.com/datasets/crawford/80-cereals
 
 Prepared by: Petra Isenberg, Pierre Dragicevic, Yvonne Jansen
 
