@@ -50,7 +50,8 @@ Dataset Fields:
 | rating | Numeric | Overall cereal rating |
 
 ### Technical Workflow
-1️⃣ Data Preprocessing (Python)
+
+1. Data Preprocessing (Python)
 
 Standardization & Cleaning:
 
@@ -74,7 +75,7 @@ Hot vs Cold cereal comparison
 
 Example Python Libraries Used: pandas, numpy, matplotlib, seaborn
 
-2️⃣ Data Modeling (Power BI)
+2. Data Modeling (Power BI)
 
 Fact Table: Cereal product-level nutritional and popularity metrics
 
@@ -86,7 +87,7 @@ Relationships:
 
 Optimized for filtering, drill-through, and slicer performance
 
-3️⃣ DAX Calculations
+3. DAX Calculations
 
 Dynamic KPIs:
 
@@ -118,7 +119,7 @@ Fiber per serving / Calories
 
 Sodium per calorie
 
-4️⃣ Dashboard Design
+4. Dashboard Design
 
 KPIs: Avg Calories, Avg Fiber, Top Manufacturer, Hot vs Cold Popularity
 
