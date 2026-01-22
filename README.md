@@ -105,33 +105,35 @@ Sodium per calorie
 
 4. Dashboard Design
 
-KPIs: Avg Calories, Avg Fiber, Top Manufacturer, Hot vs Cold Popularity
+   KPIs: Avg Calories, Avg Fiber, Top Manufacturer, Hot vs Cold Popularity
 
-Visuals:
+   Visuals:
 
-Bar charts: Manufacturer-wise ratings and nutrition comparison
+   Bar charts: Manufacturer-wise ratings and nutrition comparison
 
-Distribution plots: Sodium and sugar content across Hot/Cold cereals
+   Distribution plots: Sodium and sugar content across Hot/Cold cereals
 
-Top 10 cereal products by rating
+   Top 10 cereal products by rating
 
-Filters & Slicers: Cereal Name, Manufacturer, Type
+   Filters & Slicers: Cereal Name, Manufacturer, Type
 
-Executive Storytelling: Focus on nutritional trade-offs and market composition
+   Executive Storytelling: Focus on nutritional trade-offs and market composition
 
 ### Key Insights
 
 Market Composition:
 
-7 major manufacturers dominate the cereal market
+7 major manufacturers dominate the cereal market.
 
-Cold cereals contribute 86% of total sodium
+Cold cereals contribute 86% of total sodium.
+
 
 Popularity Trends:
 
-Hot cereals slightly more popular (57%) than cold (43%)
+Hot cereals slightly more popular (57%) than cold (43%).
 
-High-fiber cereals like All-Bran Extra Fiber and Shredded Wheat rank top
+High-fiber cereals like All-Bran Extra Fiber and Shredded Wheat rank top.
+
 
 Manufacturer Performance:
 
@@ -139,13 +141,15 @@ Nabisco: Most popular
 
 Followed by American Home Food Products and Kellogg’s
 
+
 Nutritional Insights:
 
 Avg Calories: 106.9, Avg Fiber: 2.2g
 
-Cold cereals tend to have higher sodium
+Cold cereals tend to have higher sodium.
 
-Hot cereals show cleaner nutritional profiles
+Hot cereals show cleaner nutritional profiles.
+
 
 ### Business Impact
 
